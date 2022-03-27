@@ -1,0 +1,26 @@
+.figure__caption {
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 8px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .figure__caption {
+      font-size: 10px;
+      padding-left: 24px;
+    }
+  }
+  
+    @media screen and (max-width: 320px) {
+    .figure__caption {
+      padding-left: 16px;
+    }
+  }

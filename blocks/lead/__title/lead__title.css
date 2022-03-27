@@ -7,13 +7,14 @@
   font-family: inter;
   font-size: 96px;
   font-weight: 900;
+  line-height: 100px;
   color: #ffffff;
 }
 
 @media screen and (max-width: 767px) {
   .lead__title {
     font-size: 12vw;
-    line-height: 1.15;
+    line-height: 110%;
     max-width: 90%;
   }
 }
@@ -27,6 +28,5 @@
 @media screen and (max-width: 319px) {
   .lead__title {
     font-size: 12vw;
-    line-height: 1.15;
   }
 }
